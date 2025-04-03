@@ -4,7 +4,7 @@ contadoracertos = 0
 contador = 1
 
 for i in range(10):
-    valor = input(f"{contador}. Digite seu gabarito! ")
+    valor = input(f"{contador}. Digite seu gabarito! ").upper()
     gabaritoaluno.append(valor)
     contador += 1
 
