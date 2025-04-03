@@ -1,15 +1,11 @@
-gabarito = ["A", "B", "C", "D", "E", "A", "B", "C", "D", "E"]
-gabaritoaluno = []
-contadoracertos = 0
-contador = 1
+valor1 = int(input("Digite um valor: "))
+valor2 = int(input("Digite um valor: "))
+multiplicacao = valor1 * valor2
+divisao = valor1 / valor2
+adicao  = valor1 + valor2
+subtracao = valor1 - valor2 
 
-for i in range(10):
-    valor = input(f"{contador}. Digite seu gabarito! ").upper()
-    gabaritoaluno.append(valor)
-    contador += 1
-
-for i in range(10):
-    if gabarito[i] == gabaritoaluno[i]:
-        contadoracertos += 1
-
-print(f"Você terminou de corrigir sua prova e, ao todo, você acertou {contadoracertos}/10")
+print(f"A soma dos valores é {adicao}")
+print(f"A subtração dos valores é {subtracao}")
+print(f"A multiplicação dos valores é {multiplicacao}")
+print(f"A divisão dos valores é {divisao}")
